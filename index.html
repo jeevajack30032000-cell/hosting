@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SRNM MATRIC SCHOOL</title>
 </head>
+<style>
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background:yellow;
+        margin: 0;
+        padding: 0;
+
+    }
+    h1{
+        text-align:center;
+        background:grey;
+        padding: 20px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+</style>
 
 <body>
     <h1> FORM FOR THE ADMISSION IN SCHOOL</h1>
@@ -16,23 +32,25 @@
         <hr>
         <label for="">NAME</label>
         <input type="text">
-        <br><hr>
+        <br>
+        <hr>
         <label for="">AGE</label>
         <input type="number">
-        <br><hr>
+        <br>
+        <hr>
         <label for="">DOB</label>
         <input type="date">
-        <br><hr>
+        <br>
+        <hr>
         <label for="">ATTACH BIRTH CERTIFICATE</label>
         <input type="file">
-        <br><hr>
-        <label for="">GENDER</label>
-        <input type="radio">
-        <label for="">male</label>
-        <input type="radio">
-        <label for="">female</label>
+        <br>
+        <hr>
+        <label type="gender">GENDER</label>
+        <label>male</label>
+        <input type="radio" name="gender" value="male">
+        <label>female</label>
+        <input type="radio" name="gender" value="female">
     </form>
-
 </body>
-
 </html>
