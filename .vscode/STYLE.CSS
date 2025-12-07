@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Black background for drama */
+    color: #ffffff; /* White text */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Hero Section (Start of the page) */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* The Animated Section Container */
+.animated-text-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container {
+    font-size: 8vw; /* Large, responsive font size */
+    line-height: 0.9;
+    font-weight: 900; /* Extra bold */
+    text-transform: uppercase;
+    perspective: 800px; /* For 3D transformations */
+}
+
+/* Individual lines of text */
+.animated-line {
+    /* Initially hide the lines and set their transform state */
+    opacity: 0;
+    transform: translateY(100%) rotateX(-90deg);
+}
+
+/* Spacer Section */
+.spacer {
+    height: 100vh;
+}
